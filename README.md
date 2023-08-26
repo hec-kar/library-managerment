@@ -4,13 +4,13 @@ phần backend của quản lý mượn trả sách tại thư viện Trường 
 
 Yêu cầu:
 Tải node bản LTS mới nhất (18.16.0)
-cài xampp
+cài xampp (hoặc Laragon) để sử dụng PHP Admin
 
 Các bước khởi động app:
 
 1. Clone repo này về máy
    mở terminal
-   git clone https://github.com/hec-kar/libary-managerment-BE
+   git clone https://github.com/hec-kar/library-managerment.git
 
 2. vào xampp chạy file sql để có database:
 
@@ -25,5 +25,5 @@ npm start
 
 # Lưu ý
 
-server dùng cổng 8080 nên tránh những tác vụ sử dụng cổng này hoặc đổi file .env qua cổng khác
-khi chạy server nhớ phải bật xampp
+server dùng cổng 8080 nên tránh những tác vụ sử dụng cổng này
+khi chạy server phải mở xampp hoặc laragon để kết nối database
